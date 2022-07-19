@@ -53,7 +53,7 @@ estadosEstaoCorretos =
 jogoForca.chutar('p')
 estadosEstaoCorretos =
     estadosEstaoCorretos &&
-    validarEtapa(0, palavraEsperada, 'edumlp', 'perdeu', jogoForca)
+    validarEtapa(0, palavraEsperada, 'edumlp', 'perdeu...', jogoForca)
 
 const mensagemFinal =
     estadosEstaoCorretos == true

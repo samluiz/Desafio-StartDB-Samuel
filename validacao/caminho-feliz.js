@@ -16,7 +16,7 @@ let estadosEstaoCorretos = validarEtapa(
 
 estadosEstaoCorretos =
     estadosEstaoCorretos &&
-    validarEtapa(6, 'abacaxi', 'abcxi', 'ganhou', jogoForca)
+    validarEtapa(6, 'abacaxi', 'abcxi', 'ganhou!!!', jogoForca)
 const mensagemFinal =
     estadosEstaoCorretos == true
         ? 'Regras validadas com sucesso'
